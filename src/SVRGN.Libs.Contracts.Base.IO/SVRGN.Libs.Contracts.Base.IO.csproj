@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<LangVersion>latest</LangVersion>
+		<Version>1.0.0-beta01</Version>
+		<Authors>SVRGN.eu</Authors>
+		<Copyright>2023 SVRGN.eu</Copyright>
+		<Description>Interface for base IO duties, like wrapping file operations on different OS.</Description>
+		<PackageReleaseNotes>initial creation</PackageReleaseNotes>
+		<PackageTags>Services;Interfaces;SVRGN;IO;FileIoWrapper;</PackageTags>
+		<PackageProjectUrl>https://SVRGN.eu</PackageProjectUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+</Project>
